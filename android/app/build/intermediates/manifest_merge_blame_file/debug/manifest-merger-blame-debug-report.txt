@@ -1,0 +1,274 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.situm_rn_kdom"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->D:\Documents\react\situm_rn_kdom\android\app\src\debug\AndroidManifest.xml:5:5-77
+11-->D:\Documents\react\situm_rn_kdom\android\app\src\debug\AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\Documents\react\situm_rn_kdom\android\app\src\main\AndroidManifest.xml:4:5-67
+12-->D:\Documents\react\situm_rn_kdom\android\app\src\main\AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->D:\Documents\react\situm_rn_kdom\android\app\src\main\AndroidManifest.xml:5:5-78
+13-->D:\Documents\react\situm_rn_kdom\android\app\src\main\AndroidManifest.xml:5:22-76
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->D:\Documents\react\situm_rn_kdom\android\app\src\main\AndroidManifest.xml:6:5-80
+14-->D:\Documents\react\situm_rn_kdom\android\app\src\main\AndroidManifest.xml:6:22-78
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Include required permissions for Google Maps API to run. -->
+15-->[com.facebook.flipper:flipper:0.54.0] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\ae3dc7a416a382f883ade4ee16bb82d1\flipper-0.54.0\AndroidManifest.xml:16:5-76
+15-->[com.facebook.flipper:flipper:0.54.0] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\ae3dc7a416a382f883ade4ee16bb82d1\flipper-0.54.0\AndroidManifest.xml:16:22-73
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\1319038bd662116941d72994d0a005a6\jetified-play-services-maps-16.1.0\AndroidManifest.xml:23:5-79
+16-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\1319038bd662116941d72994d0a005a6\jetified-play-services-maps-16.1.0\AndroidManifest.xml:23:22-76
+17
+18    <uses-feature
+18-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\1319038bd662116941d72994d0a005a6\jetified-play-services-maps-16.1.0\AndroidManifest.xml:26:5-28:35
+19        android:glEsVersion="0x00020000"
+19-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\1319038bd662116941d72994d0a005a6\jetified-play-services-maps-16.1.0\AndroidManifest.xml:27:9-41
+20        android:required="true" /> <!-- Optional -->
+20-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\1319038bd662116941d72994d0a005a6\jetified-play-services-maps-16.1.0\AndroidManifest.xml:28:9-32
+21    <!-- <uses-permission-sdk-23 android:name="android.permission.ACCESS_FINE_LOCATION" /> -->
+22    <!-- <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> -->
+23    <uses-permission-sdk-23 android:name="android.permission.ACCESS_COARSE_LOCATION" />
+23-->[es.situm:situm-sdk:2.67.1] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\b0a391acfe55b73eb2517f211978c65f\jetified-situm-sdk-2.67.1\AndroidManifest.xml:16:5-88
+23-->[es.situm:situm-sdk:2.67.1] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\b0a391acfe55b73eb2517f211978c65f\jetified-situm-sdk-2.67.1\AndroidManifest.xml:16:29-85
+24
+25    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+25-->[es.situm:situm-sdk:2.67.1] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\b0a391acfe55b73eb2517f211978c65f\jetified-situm-sdk-2.67.1\AndroidManifest.xml:21:5-76
+25-->[es.situm:situm-sdk:2.67.1] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\b0a391acfe55b73eb2517f211978c65f\jetified-situm-sdk-2.67.1\AndroidManifest.xml:21:22-73
+26    <uses-permission
+26-->[es.situm:situm-sdk:2.67.1] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\b0a391acfe55b73eb2517f211978c65f\jetified-situm-sdk-2.67.1\AndroidManifest.xml:23:5-74
+27        android:name="android.permission.BLUETOOTH_ADMIN"
+27-->[es.situm:situm-sdk:2.67.1] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\b0a391acfe55b73eb2517f211978c65f\jetified-situm-sdk-2.67.1\AndroidManifest.xml:23:22-71
+28        android:required="false" />
+28-->[org.altbeacon:android-beacon-library:2.16.3] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\a959121fc929672ae3c959fc74b97685\jetified-android-beacon-library-2.16.3\AndroidManifest.xml:16:9-33
+29    <uses-permission
+29-->[es.situm:situm-sdk:2.67.1] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\b0a391acfe55b73eb2517f211978c65f\jetified-situm-sdk-2.67.1\AndroidManifest.xml:24:5-68
+30        android:name="android.permission.BLUETOOTH"
+30-->[es.situm:situm-sdk:2.67.1] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\b0a391acfe55b73eb2517f211978c65f\jetified-situm-sdk-2.67.1\AndroidManifest.xml:24:22-65
+31        android:required="false" />
+31-->[org.altbeacon:android-beacon-library:2.16.3] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\a959121fc929672ae3c959fc74b97685\jetified-android-beacon-library-2.16.3\AndroidManifest.xml:13:9-33
+32    <uses-permission android:name="android.permission.WAKE_LOCK" />
+32-->[es.situm:situm-sdk:2.67.1] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\b0a391acfe55b73eb2517f211978c65f\jetified-situm-sdk-2.67.1\AndroidManifest.xml:25:5-68
+32-->[es.situm:situm-sdk:2.67.1] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\b0a391acfe55b73eb2517f211978c65f\jetified-situm-sdk-2.67.1\AndroidManifest.xml:25:22-65
+33    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+33-->[es.situm:situm-sdk:2.67.1] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\b0a391acfe55b73eb2517f211978c65f\jetified-situm-sdk-2.67.1\AndroidManifest.xml:26:5-77
+33-->[es.situm:situm-sdk:2.67.1] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\b0a391acfe55b73eb2517f211978c65f\jetified-situm-sdk-2.67.1\AndroidManifest.xml:26:22-74
+34    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+34-->[org.altbeacon:android-beacon-library:2.16.3] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\a959121fc929672ae3c959fc74b97685\jetified-android-beacon-library-2.16.3\AndroidManifest.xml:17:5-81
+34-->[org.altbeacon:android-beacon-library:2.16.3] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\a959121fc929672ae3c959fc74b97685\jetified-android-beacon-library-2.16.3\AndroidManifest.xml:17:22-78
+35
+36    <application
+36-->D:\Documents\react\situm_rn_kdom\android\app\src\main\AndroidManifest.xml:8:5-30:19
+37        android:name="com.situm_rn_kdom.MainApplication"
+37-->D:\Documents\react\situm_rn_kdom\android\app\src\main\AndroidManifest.xml:9:7-38
+38        android:allowBackup="false"
+38-->D:\Documents\react\situm_rn_kdom\android\app\src\main\AndroidManifest.xml:13:7-34
+39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+39-->[androidx.core:core:1.3.0] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\edb3e227103316871c25f962da3e32ee\core-1.3.0\AndroidManifest.xml:24:18-86
+40        android:debuggable="true"
+41        android:icon="@mipmap/ic_launcher"
+41-->D:\Documents\react\situm_rn_kdom\android\app\src\main\AndroidManifest.xml:11:7-41
+42        android:label="@string/app_name"
+42-->D:\Documents\react\situm_rn_kdom\android\app\src\main\AndroidManifest.xml:10:7-39
+43        android:roundIcon="@mipmap/ic_launcher_round"
+43-->D:\Documents\react\situm_rn_kdom\android\app\src\main\AndroidManifest.xml:12:7-52
+44        android:theme="@style/AppTheme"
+44-->D:\Documents\react\situm_rn_kdom\android\app\src\main\AndroidManifest.xml:14:7-38
+45        android:usesCleartextTraffic="true" >
+45-->D:\Documents\react\situm_rn_kdom\android\app\src\debug\AndroidManifest.xml:7:18-53
+46        <activity
+46-->D:\Documents\react\situm_rn_kdom\android\app\src\main\AndroidManifest.xml:15:7-25:18
+47            android:name="com.situm_rn_kdom.MainActivity"
+47-->D:\Documents\react\situm_rn_kdom\android\app\src\main\AndroidManifest.xml:16:9-37
+48            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+48-->D:\Documents\react\situm_rn_kdom\android\app\src\main\AndroidManifest.xml:18:9-86
+49            android:label="@string/app_name"
+49-->D:\Documents\react\situm_rn_kdom\android\app\src\main\AndroidManifest.xml:17:9-41
+50            android:launchMode="singleTask"
+50-->D:\Documents\react\situm_rn_kdom\android\app\src\main\AndroidManifest.xml:19:9-40
+51            android:windowSoftInputMode="adjustResize" >
+51-->D:\Documents\react\situm_rn_kdom\android\app\src\main\AndroidManifest.xml:20:9-51
+52            <intent-filter>
+52-->D:\Documents\react\situm_rn_kdom\android\app\src\main\AndroidManifest.xml:21:9-24:25
+53                <action android:name="android.intent.action.MAIN" />
+53-->D:\Documents\react\situm_rn_kdom\android\app\src\main\AndroidManifest.xml:22:13-65
+53-->D:\Documents\react\situm_rn_kdom\android\app\src\main\AndroidManifest.xml:22:21-62
+54
+55                <category android:name="android.intent.category.LAUNCHER" />
+55-->D:\Documents\react\situm_rn_kdom\android\app\src\main\AndroidManifest.xml:23:13-73
+55-->D:\Documents\react\situm_rn_kdom\android\app\src\main\AndroidManifest.xml:23:23-70
+56            </intent-filter>
+57        </activity>
+58        <activity
+58-->D:\Documents\react\situm_rn_kdom\android\app\src\main\AndroidManifest.xml:26:7-84
+59            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+59-->D:\Documents\react\situm_rn_kdom\android\app\src\main\AndroidManifest.xml:26:17-81
+60            android:exported="false" />
+60-->[:react-native-navigation] D:\Documents\react\situm_rn_kdom\node_modules\react-native-navigation\lib\android\app\build\intermediates\library_manifest\reactNative63Debug\AndroidManifest.xml:14:13-37
+61
+62        <meta-data
+62-->D:\Documents\react\situm_rn_kdom\android\app\src\main\AndroidManifest.xml:27:9-29:71
+63            android:name="com.google.android.geo.API_KEY"
+63-->D:\Documents\react\situm_rn_kdom\android\app\src\main\AndroidManifest.xml:28:13-58
+64            android:value="AIzaSyAESL4DPmgBxh9tH3zmT2I9KAODSe7Hjjc" /> <!-- Needs to be explicitly declared on P+ -->
+64-->D:\Documents\react\situm_rn_kdom\android\app\src\main\AndroidManifest.xml:29:13-68
+65        <uses-library
+65-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\1319038bd662116941d72994d0a005a6\jetified-play-services-maps-16.1.0\AndroidManifest.xml:33:9-35:40
+66            android:name="org.apache.http.legacy"
+66-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\1319038bd662116941d72994d0a005a6\jetified-play-services-maps-16.1.0\AndroidManifest.xml:34:13-50
+67            android:required="false" />
+67-->[com.google.android.gms:play-services-maps:16.1.0] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\1319038bd662116941d72994d0a005a6\jetified-play-services-maps-16.1.0\AndroidManifest.xml:35:13-37
+68
+69        <meta-data
+69-->[es.situm:situm-sdk:2.67.1] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\b0a391acfe55b73eb2517f211978c65f\jetified-situm-sdk-2.67.1\AndroidManifest.xml:29:9-31:40
+70            android:name="com.google.ar.core"
+70-->[es.situm:situm-sdk:2.67.1] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\b0a391acfe55b73eb2517f211978c65f\jetified-situm-sdk-2.67.1\AndroidManifest.xml:30:13-46
+71            android:value="optional" />
+71-->[es.situm:situm-sdk:2.67.1] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\b0a391acfe55b73eb2517f211978c65f\jetified-situm-sdk-2.67.1\AndroidManifest.xml:31:13-37
+72        <meta-data
+72-->[es.situm:situm-sdk:2.67.1] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\b0a391acfe55b73eb2517f211978c65f\jetified-situm-sdk-2.67.1\AndroidManifest.xml:32:9-35:36
+73            android:name="com.google.ar.core.min_apk_version"
+73-->[es.situm:situm-sdk:2.67.1] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\b0a391acfe55b73eb2517f211978c65f\jetified-situm-sdk-2.67.1\AndroidManifest.xml:33:13-62
+74            android:value="180815000" />
+74-->[es.situm:situm-sdk:2.67.1] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\b0a391acfe55b73eb2517f211978c65f\jetified-situm-sdk-2.67.1\AndroidManifest.xml:34:13-38
+75
+76        <service
+76-->[es.situm:situm-sdk:2.67.1] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\b0a391acfe55b73eb2517f211978c65f\jetified-situm-sdk-2.67.1\AndroidManifest.xml:37:9-40:56
+77            android:name="es.situm.sdk.v1.SitumService"
+77-->[es.situm:situm-sdk:2.67.1] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\b0a391acfe55b73eb2517f211978c65f\jetified-situm-sdk-2.67.1\AndroidManifest.xml:38:13-56
+78            android:exported="false"
+78-->[es.situm:situm-sdk:2.67.1] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\b0a391acfe55b73eb2517f211978c65f\jetified-situm-sdk-2.67.1\AndroidManifest.xml:39:13-37
+79            android:foregroundServiceType="location" />
+79-->[es.situm:situm-sdk:2.67.1] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\b0a391acfe55b73eb2517f211978c65f\jetified-situm-sdk-2.67.1\AndroidManifest.xml:40:13-53
+80        <service
+80-->[es.situm:situm-sdk:2.67.1] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\b0a391acfe55b73eb2517f211978c65f\jetified-situm-sdk-2.67.1\AndroidManifest.xml:41:9-44:56
+81            android:name="es.situm.sdk.location.SitumLocationService"
+81-->[es.situm:situm-sdk:2.67.1] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\b0a391acfe55b73eb2517f211978c65f\jetified-situm-sdk-2.67.1\AndroidManifest.xml:42:13-70
+82            android:exported="false"
+82-->[es.situm:situm-sdk:2.67.1] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\b0a391acfe55b73eb2517f211978c65f\jetified-situm-sdk-2.67.1\AndroidManifest.xml:43:13-37
+83            android:foregroundServiceType="location" />
+83-->[es.situm:situm-sdk:2.67.1] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\b0a391acfe55b73eb2517f211978c65f\jetified-situm-sdk-2.67.1\AndroidManifest.xml:44:13-53
+84        <service
+84-->[es.situm:situm-sdk:2.67.1] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\b0a391acfe55b73eb2517f211978c65f\jetified-situm-sdk-2.67.1\AndroidManifest.xml:45:9-48:56
+85            android:name="es.situm.sdk.calibration.internal.CalibrationService"
+85-->[es.situm:situm-sdk:2.67.1] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\b0a391acfe55b73eb2517f211978c65f\jetified-situm-sdk-2.67.1\AndroidManifest.xml:46:13-80
+86            android:exported="false"
+86-->[es.situm:situm-sdk:2.67.1] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\b0a391acfe55b73eb2517f211978c65f\jetified-situm-sdk-2.67.1\AndroidManifest.xml:47:13-37
+87            android:foregroundServiceType="location" />
+87-->[es.situm:situm-sdk:2.67.1] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\b0a391acfe55b73eb2517f211978c65f\jetified-situm-sdk-2.67.1\AndroidManifest.xml:48:13-53
+88
+89        <activity
+89-->[es.situm:situm-sdk:2.67.1] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\b0a391acfe55b73eb2517f211978c65f\jetified-situm-sdk-2.67.1\AndroidManifest.xml:50:9-52:56
+90            android:name="es.situm.sdk.internal.RequestWifiScanAlwaysAvailableActivity"
+90-->[es.situm:situm-sdk:2.67.1] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\b0a391acfe55b73eb2517f211978c65f\jetified-situm-sdk-2.67.1\AndroidManifest.xml:51:13-88
+91            android:theme="@style/Theme.Transparent" />
+91-->[es.situm:situm-sdk:2.67.1] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\b0a391acfe55b73eb2517f211978c65f\jetified-situm-sdk-2.67.1\AndroidManifest.xml:52:13-53
+92        <activity
+92-->[com.google.android.gms:play-services-base:16.1.0] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\a6f883e667691342bd911e8314fcf0fa\jetified-play-services-base-16.1.0\AndroidManifest.xml:23:9-26:75
+93            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+93-->[com.google.android.gms:play-services-base:16.1.0] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\a6f883e667691342bd911e8314fcf0fa\jetified-play-services-base-16.1.0\AndroidManifest.xml:24:13-79
+94            android:exported="false"
+94-->[com.google.android.gms:play-services-base:16.1.0] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\a6f883e667691342bd911e8314fcf0fa\jetified-play-services-base-16.1.0\AndroidManifest.xml:25:13-37
+95            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+95-->[com.google.android.gms:play-services-base:16.1.0] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\a6f883e667691342bd911e8314fcf0fa\jetified-play-services-base-16.1.0\AndroidManifest.xml:26:13-72
+96
+97        <meta-data
+97-->[com.google.android.gms:play-services-basement:16.2.0] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\22d0fc58c1d466af8c12af0fab8d227c\jetified-play-services-basement-16.2.0\AndroidManifest.xml:23:9-25:69
+98            android:name="com.google.android.gms.version"
+98-->[com.google.android.gms:play-services-basement:16.2.0] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\22d0fc58c1d466af8c12af0fab8d227c\jetified-play-services-basement-16.2.0\AndroidManifest.xml:24:13-58
+99            android:value="@integer/google_play_services_version" />
+99-->[com.google.android.gms:play-services-basement:16.2.0] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\22d0fc58c1d466af8c12af0fab8d227c\jetified-play-services-basement-16.2.0\AndroidManifest.xml:25:13-66
+100
+101        <receiver android:name="org.altbeacon.beacon.startup.StartupBroadcastReceiver" >
+101-->[org.altbeacon:android-beacon-library:2.16.3] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\a959121fc929672ae3c959fc74b97685\jetified-android-beacon-library-2.16.3\AndroidManifest.xml:21:9-27:20
+101-->[org.altbeacon:android-beacon-library:2.16.3] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\a959121fc929672ae3c959fc74b97685\jetified-android-beacon-library-2.16.3\AndroidManifest.xml:21:19-87
+102            <intent-filter>
+102-->[org.altbeacon:android-beacon-library:2.16.3] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\a959121fc929672ae3c959fc74b97685\jetified-android-beacon-library-2.16.3\AndroidManifest.xml:22:13-26:29
+103                <action android:name="android.intent.action.BOOT_COMPLETED" />
+103-->[org.altbeacon:android-beacon-library:2.16.3] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\a959121fc929672ae3c959fc74b97685\jetified-android-beacon-library-2.16.3\AndroidManifest.xml:23:17-79
+103-->[org.altbeacon:android-beacon-library:2.16.3] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\a959121fc929672ae3c959fc74b97685\jetified-android-beacon-library-2.16.3\AndroidManifest.xml:23:25-76
+104                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+104-->[org.altbeacon:android-beacon-library:2.16.3] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\a959121fc929672ae3c959fc74b97685\jetified-android-beacon-library-2.16.3\AndroidManifest.xml:24:17-87
+104-->[org.altbeacon:android-beacon-library:2.16.3] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\a959121fc929672ae3c959fc74b97685\jetified-android-beacon-library-2.16.3\AndroidManifest.xml:24:25-84
+105                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+105-->[org.altbeacon:android-beacon-library:2.16.3] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\a959121fc929672ae3c959fc74b97685\jetified-android-beacon-library-2.16.3\AndroidManifest.xml:25:17-90
+105-->[org.altbeacon:android-beacon-library:2.16.3] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\a959121fc929672ae3c959fc74b97685\jetified-android-beacon-library-2.16.3\AndroidManifest.xml:25:25-87
+106            </intent-filter>
+107        </receiver>
+108
+109        <service
+109-->[org.altbeacon:android-beacon-library:2.16.3] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\a959121fc929672ae3c959fc74b97685\jetified-android-beacon-library-2.16.3\AndroidManifest.xml:29:9-34:38
+110            android:name="org.altbeacon.beacon.service.BeaconService"
+110-->[org.altbeacon:android-beacon-library:2.16.3] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\a959121fc929672ae3c959fc74b97685\jetified-android-beacon-library-2.16.3\AndroidManifest.xml:30:13-70
+111            android:enabled="true"
+111-->[org.altbeacon:android-beacon-library:2.16.3] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\a959121fc929672ae3c959fc74b97685\jetified-android-beacon-library-2.16.3\AndroidManifest.xml:31:13-35
+112            android:exported="false"
+112-->[org.altbeacon:android-beacon-library:2.16.3] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\a959121fc929672ae3c959fc74b97685\jetified-android-beacon-library-2.16.3\AndroidManifest.xml:32:13-37
+113            android:isolatedProcess="false"
+113-->[org.altbeacon:android-beacon-library:2.16.3] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\a959121fc929672ae3c959fc74b97685\jetified-android-beacon-library-2.16.3\AndroidManifest.xml:33:13-44
+114            android:label="beacon" />
+114-->[org.altbeacon:android-beacon-library:2.16.3] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\a959121fc929672ae3c959fc74b97685\jetified-android-beacon-library-2.16.3\AndroidManifest.xml:34:13-35
+115        <service
+115-->[org.altbeacon:android-beacon-library:2.16.3] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\a959121fc929672ae3c959fc74b97685\jetified-android-beacon-library-2.16.3\AndroidManifest.xml:35:9-38:40
+116            android:name="org.altbeacon.beacon.BeaconIntentProcessor"
+116-->[org.altbeacon:android-beacon-library:2.16.3] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\a959121fc929672ae3c959fc74b97685\jetified-android-beacon-library-2.16.3\AndroidManifest.xml:36:13-70
+117            android:enabled="true"
+117-->[org.altbeacon:android-beacon-library:2.16.3] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\a959121fc929672ae3c959fc74b97685\jetified-android-beacon-library-2.16.3\AndroidManifest.xml:37:13-35
+118            android:exported="false" />
+118-->[org.altbeacon:android-beacon-library:2.16.3] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\a959121fc929672ae3c959fc74b97685\jetified-android-beacon-library-2.16.3\AndroidManifest.xml:38:13-37
+119        <service
+119-->[org.altbeacon:android-beacon-library:2.16.3] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\a959121fc929672ae3c959fc74b97685\jetified-android-beacon-library-2.16.3\AndroidManifest.xml:39:9-48:19
+120            android:name="org.altbeacon.beacon.service.ScanJob"
+120-->[org.altbeacon:android-beacon-library:2.16.3] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\a959121fc929672ae3c959fc74b97685\jetified-android-beacon-library-2.16.3\AndroidManifest.xml:40:13-64
+121            android:permission="android.permission.BIND_JOB_SERVICE" >
+121-->[org.altbeacon:android-beacon-library:2.16.3] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\a959121fc929672ae3c959fc74b97685\jetified-android-beacon-library-2.16.3\AndroidManifest.xml:41:13-69
+122            <meta-data
+122-->[org.altbeacon:android-beacon-library:2.16.3] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\a959121fc929672ae3c959fc74b97685\jetified-android-beacon-library-2.16.3\AndroidManifest.xml:42:13-44:45
+123                android:name="immediateScanJobId"
+123-->[org.altbeacon:android-beacon-library:2.16.3] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\a959121fc929672ae3c959fc74b97685\jetified-android-beacon-library-2.16.3\AndroidManifest.xml:43:17-50
+124                android:value="208352939" />
+124-->[org.altbeacon:android-beacon-library:2.16.3] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\a959121fc929672ae3c959fc74b97685\jetified-android-beacon-library-2.16.3\AndroidManifest.xml:44:17-42
+125            <meta-data
+125-->[org.altbeacon:android-beacon-library:2.16.3] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\a959121fc929672ae3c959fc74b97685\jetified-android-beacon-library-2.16.3\AndroidManifest.xml:45:13-47:45
+126                android:name="periodicScanJobId"
+126-->[org.altbeacon:android-beacon-library:2.16.3] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\a959121fc929672ae3c959fc74b97685\jetified-android-beacon-library-2.16.3\AndroidManifest.xml:46:17-49
+127                android:value="208352940" />
+127-->[org.altbeacon:android-beacon-library:2.16.3] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\a959121fc929672ae3c959fc74b97685\jetified-android-beacon-library-2.16.3\AndroidManifest.xml:47:17-42
+128        </service>
+129        <service
+129-->[org.altbeacon:android-beacon-library:2.16.3] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\a959121fc929672ae3c959fc74b97685\jetified-android-beacon-library-2.16.3\AndroidManifest.xml:49:9-55:19
+130            android:name="org.altbeacon.bluetooth.BluetoothTestJob"
+130-->[org.altbeacon:android-beacon-library:2.16.3] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\a959121fc929672ae3c959fc74b97685\jetified-android-beacon-library-2.16.3\AndroidManifest.xml:50:13-68
+131            android:permission="android.permission.BIND_JOB_SERVICE" >
+131-->[org.altbeacon:android-beacon-library:2.16.3] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\a959121fc929672ae3c959fc74b97685\jetified-android-beacon-library-2.16.3\AndroidManifest.xml:51:13-69
+132            <meta-data
+132-->[org.altbeacon:android-beacon-library:2.16.3] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\a959121fc929672ae3c959fc74b97685\jetified-android-beacon-library-2.16.3\AndroidManifest.xml:52:13-54:46
+133                android:name="jobId"
+133-->[org.altbeacon:android-beacon-library:2.16.3] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\a959121fc929672ae3c959fc74b97685\jetified-android-beacon-library-2.16.3\AndroidManifest.xml:53:17-37
+134                android:value="1799803768" />
+134-->[org.altbeacon:android-beacon-library:2.16.3] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\a959121fc929672ae3c959fc74b97685\jetified-android-beacon-library-2.16.3\AndroidManifest.xml:54:17-43
+135        </service> <!-- This activity is critical for installing ARCore when it is not already present. -->
+136        <activity
+136-->[com.google.ar:core:1.9.0] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\d4b523d976881b9949df2e2f0338883d\core-1.9.0\AndroidManifest.xml:37:9-43:80
+137            android:name="com.google.ar.core.InstallActivity"
+137-->[com.google.ar:core:1.9.0] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\d4b523d976881b9949df2e2f0338883d\core-1.9.0\AndroidManifest.xml:38:13-62
+138            android:configChanges="keyboardHidden|orientation|screenSize"
+138-->[com.google.ar:core:1.9.0] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\d4b523d976881b9949df2e2f0338883d\core-1.9.0\AndroidManifest.xml:39:13-74
+139            android:excludeFromRecents="true"
+139-->[com.google.ar:core:1.9.0] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\d4b523d976881b9949df2e2f0338883d\core-1.9.0\AndroidManifest.xml:40:13-46
+140            android:exported="false"
+140-->[com.google.ar:core:1.9.0] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\d4b523d976881b9949df2e2f0338883d\core-1.9.0\AndroidManifest.xml:41:13-37
+141            android:launchMode="singleTop"
+141-->[com.google.ar:core:1.9.0] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\d4b523d976881b9949df2e2f0338883d\core-1.9.0\AndroidManifest.xml:42:13-43
+142            android:theme="@android:style/Theme.Material.Light.Dialog.Alert" />
+142-->[com.google.ar:core:1.9.0] C:\Users\arcti\.gradle\caches\transforms-2\files-2.1\d4b523d976881b9949df2e2f0338883d\core-1.9.0\AndroidManifest.xml:43:13-77
+143    </application>
+144
+145</manifest>

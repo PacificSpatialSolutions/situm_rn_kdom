@@ -1,0 +1,94 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\Documents\\react\\situm_rn_kdom\\android\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-pa\\values-pa.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\arcti\\.gradle\\caches\\transforms-2\\files-2.1\\d4b523d976881b9949df2e2f0338883d\\core-1.9.0\\res\\values-pa\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "190,238,290,385,484",
+                        "endColumns": "47,51,94,98,77",
+                        "endOffsets": "237,289,384,483,561"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "105,157,213,312,415",
+                        "endColumns": "51,55,98,102,81",
+                        "endOffsets": "152,208,307,410,492"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\arcti\\.gradle\\caches\\transforms-2\\files-2.1\\a6f883e667691342bd911e8314fcf0fa\\jetified-play-services-base-16.1.0\\res\\values-pa\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "245,350,555,683,790,996,1123,1262,1391,1612,1719,1923,2053,2265,2452,2544,2636",
+                        "endColumns": "104,204,127,106,205,126,138,128,220,106,203,129,211,186,91,91,106",
+                        "endOffsets": "349,554,682,789,995,1122,1261,1390,1611,1718,1922,2052,2264,2451,2543,2635,2742"
+                    },
+                    "to": {
+                        "startLines": "34,35,36,37,38,39,40,41,43,44,45,46,47,48,49,50,51",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "3159,3268,3473,3605,3716,3922,4053,4196,4539,4760,4871,5075,5209,5421,5612,5708,5804",
+                        "endColumns": "108,204,131,110,205,130,142,132,220,110,203,133,211,190,95,95,110",
+                        "endOffsets": "3263,3468,3600,3711,3917,4048,4191,4324,4755,4866,5070,5204,5416,5607,5703,5799,5910"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\arcti\\.gradle\\caches\\transforms-2\\files-2.1\\f6ed8a61e0684717a1204e72bc46125d\\appcompat-1.1.0\\res\\values-pa\\values-pa.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,208,305,410,496,596,709,787,865,956,1048,1142,1236,1337,1430,1525,1619,1710,1801,1879,1989,2092,2188,2299,2401,2511,2670,2767",
+                        "endColumns": "102,96,104,85,99,112,77,77,90,91,93,93,100,92,94,93,90,90,77,109,102,95,110,101,109,158,96,78",
+                        "endOffsets": "203,300,405,491,591,704,782,860,951,1043,1137,1231,1332,1425,1520,1614,1705,1796,1874,1984,2087,2183,2294,2396,2506,2665,2762,2841"
+                    },
+                    "to": {
+                        "startLines": "7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,52",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "497,600,697,802,888,988,1101,1179,1257,1348,1440,1534,1628,1729,1822,1917,2011,2102,2193,2271,2381,2484,2580,2691,2793,2903,3062,5915",
+                        "endColumns": "102,96,104,85,99,112,77,77,90,91,93,93,100,92,94,93,90,90,77,109,102,95,110,101,109,158,96,78",
+                        "endOffsets": "595,692,797,883,983,1096,1174,1252,1343,1435,1529,1623,1724,1817,1912,2006,2097,2188,2266,2376,2479,2575,2686,2788,2898,3057,3154,5989"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\arcti\\.gradle\\caches\\transforms-2\\files-2.1\\22d0fc58c1d466af8c12af0fab8d227c\\jetified-play-services-basement-16.2.0\\res\\values-pa\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "247",
+                        "endColumns": "209",
+                        "endOffsets": "456"
+                    },
+                    "to": {
+                        "startLines": "42",
+                        "startColumns": "4",
+                        "startOffsets": "4329",
+                        "endColumns": "209",
+                        "endOffsets": "4534"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\arcti\\.gradle\\caches\\transforms-2\\files-2.1\\edb3e227103316871c25f962da3e32ee\\core-1.3.0\\res\\values-pa\\values-pa.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "53",
+                        "startColumns": "4",
+                        "startOffsets": "5994",
+                        "endColumns": "100",
+                        "endOffsets": "6090"
+                    }
+                }
+            ]
+        }
+    ]
+}
