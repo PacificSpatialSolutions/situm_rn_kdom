@@ -106,3 +106,4 @@ dist
 __tests__/
 android/
 ios/
+config_copy.js
